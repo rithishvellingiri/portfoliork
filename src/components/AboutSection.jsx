@@ -64,10 +64,11 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Machine Learning Enthusiast</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Passionate about building predictive models, exploring datasets, and
+                    developing intelligent systems that can learn and make data-driven
+                    decisions.
                   </p>
                 </div>
               </div>
