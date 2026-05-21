@@ -76,15 +76,15 @@
   }
 
   .dark {
-    --background: 222 47% 4%;
-    --foreground: 213 31% 91%;
+    --background: 240 10% 4%;
+    --foreground: 210 40% 98%;
 
-    --card: 222 47% 8%;
+    --card: 240 10% 6%;
 
-    --primary: 250 65% 65%;
-    --primary-foreground: 213 31% 91%;
+    --primary: 250 100% 65%; /* Electric Purple */
+    --primary-foreground: 210 40% 98%;
 
-    --border: 217 33% 20%;
+    --border: 240 10% 12%;
   }
 
   * {
@@ -140,8 +140,20 @@
 
 @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
-         transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
+         transition-all duration-300 hover:shadow-[0_0_20px_rgba(139,92,246,0.6)]
          hover:scale-105 active:scale-95;
+}
+
+@utility glass {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)];
+}
+
+@utility glass-panel {
+  @apply bg-black/40 backdrop-blur-lg border border-white/5 rounded-2xl shadow-xl;
+}
+
+@utility text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-indigo-400;
 }
 
 @utility star {
