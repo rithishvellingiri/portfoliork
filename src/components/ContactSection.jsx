@@ -133,7 +133,7 @@ export const ContactSection = () => {
                 {[
                   { icon: Linkedin, href: "https://www.linkedin.com/in/rithish-kumar-v-0659a1355/" },
                   { icon: Twitter, href: "https://x.com/Rithish1703?t=ceICLFuJRfan17tNrSFt-w&s=09" },
-                  { icon: Instagram, href: "https://www.instagram.com/_rithish__17?igsh=MWo3Y3VtNHZzM2lsag==" },
+                  { icon: Instagram, href: "https://www.instagram.com/rithish_.17?igsh=MWo3Y3VtNHZzM2lsag==" },
                   { icon: Github, href: "https://github.com/rithishvellingiri" },
                 ].map((social, idx) => (
                   <a 
