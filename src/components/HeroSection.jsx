@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArrowDown, X } from "lucide-react";
-import profilePic from "../assets/rithish img.jpg";
+import profilePic from "../assets/rk.jpeg";
 import { motion } from "framer-motion";
 
 export const HeroSection = () => {
